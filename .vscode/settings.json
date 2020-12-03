@@ -1,0 +1,17 @@
+{
+  "files.encoding": "utf8",
+  "editor.tabSize": 4,
+  "editor.insertSpaces": true,
+  "cucumberautocomplete.strictGherkinCompletion": true,
+  "cucumberautocomplete.smartSnippets": true,
+  "cucumberautocomplete.onTypeFormat": true,
+  "editor.quickSuggestions": {
+    "other": true,
+    "comments": true,
+    "strings": true
+  },
+  "cucumberautocomplete.syncfeatures": "features/specs/*.feature",
+  "cucumberautocomplete.steps": [
+    "features/step_definitions/*.rb"
+  ]
+}

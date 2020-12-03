@@ -1,0 +1,20 @@
+CadastroSucesso:
+  homePage: "/"
+  cabecalhoPagina: "authentication"
+  genero: 'Mr.'
+  nome: "Kleber"
+  sobrenome: "de Dorthmund"
+  senha: "automation@123"
+  dataNascimento:
+    dia: "14"
+    mes: "February"
+    ano: "1998"
+  endereco:
+    logadouro: "Rua do tonhão, 135"
+    cidade: "New York"
+    estado: "New York"
+    cep: "00000"
+    pais: "United States"
+  telefone: "021 95313161"
+  nomeEndereco: "Minha Casa"
+  paginaUsuarioCadastrado: "controller=my-account"

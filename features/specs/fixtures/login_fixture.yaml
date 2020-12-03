@@ -1,0 +1,5 @@
+LoginSucesso:
+  cabecalhoPagina: "authentication"
+  senha: "automation@123"
+  paginaUsuarioLogado: "controller=my-account"
+  nomeUsuario: "Kleber de Dorthmund"

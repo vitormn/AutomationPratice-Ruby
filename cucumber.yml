@@ -1,0 +1,18 @@
+---
+
+  # comandos
+  default: -p pretty -p html -p chrome
+  ci: -p progress -p json -p chrome_headless --retry 1
+
+  # tipos de report
+  json: --format json --out=log/reports/report.json
+  html: --format json --out=log/reports/report.html
+
+  # navegadores
+  firefox: BROWSER=firefox --publish-quiet
+  chrome: BROWSER=chrome --publish-quiet
+  chrome_headless: BROWSER=chrome_headless --publish-quiet
+
+  # estilo do log
+  pretty: --format pretty
+  progress: --format progress

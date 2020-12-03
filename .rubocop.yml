@@ -1,0 +1,8 @@
+# lista dos cops
+# "rubocop -a" para rodar os cops
+
+Style/FrozenStringLiteralComment:
+  Enabled: false
+
+Style/StringLiterals:
+  Enabled: true

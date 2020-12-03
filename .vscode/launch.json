@@ -1,0 +1,18 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Cucumber",
+      "type": "Ruby",
+      "request": "launch",
+      "cwd": "${workspaceRoot}",
+      "program": "/home/vitorn/.rbenv/versions/2.7.2/bin/cucumber",
+      "args": [
+        "--tags",
+        "@teste",
+        "-p",
+        "chrome"
+      ]
+    }
+  ]
+}
